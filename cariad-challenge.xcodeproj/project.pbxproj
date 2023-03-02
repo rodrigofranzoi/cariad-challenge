@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D3E25229B12667009C3E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25129B12667009C3E09 /* AppDelegate.swift */; };
+		C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25329B12667009C3E09 /* SceneDelegate.swift */; };
+		C2D3E25629B12667009C3E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25529B12667009C3E09 /* ViewController.swift */; };
+		C2D3E25929B12667009C3E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25729B12667009C3E09 /* Main.storyboard */; };
+		C2D3E25B29B1266A009C3E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25A29B1266A009C3E09 /* Assets.xcassets */; };
+		C2D3E25E29B1266A009C3E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */; };
+		C2D3E26929B1266A009C3E09 /* cariad_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */; };
+		C2D3E27329B1266A009C3E09 /* cariad_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E27229B1266A009C3E09 /* cariad_challengeUITests.swift */; };
+		C2D3E27529B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2D3E26529B1266A009C3E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D3E24629B12667009C3E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D3E24D29B12667009C3E09;
+			remoteInfo = "cariad-challenge";
+		};
+		C2D3E26F29B1266A009C3E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D3E24629B12667009C3E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D3E24D29B12667009C3E09;
+			remoteInfo = "cariad-challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2D3E24E29B12667009C3E09 /* cariad-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cariad-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D3E25129B12667009C3E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2D3E25329B12667009C3E09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2D3E25529B12667009C3E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2D3E25829B12667009C3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2D3E25A29B1266A009C3E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D3E25D29B1266A009C3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2D3E25F29B1266A009C3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D3E26429B1266A009C3E09 /* cariad-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cariad-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeTests.swift; sourceTree = "<group>"; };
+		C2D3E26E29B1266A009C3E09 /* cariad-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cariad-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D3E27229B1266A009C3E09 /* cariad_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeUITests.swift; sourceTree = "<group>"; };
+		C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D3E24B29B12667009C3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26129B1266A009C3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26B29B1266A009C3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D3E24529B12667009C3E09 = {
+			isa = PBXGroup;
+			children = (
+				C2D3E25029B12667009C3E09 /* cariad-challenge */,
+				C2D3E26729B1266A009C3E09 /* cariad-challengeTests */,
+				C2D3E27129B1266A009C3E09 /* cariad-challengeUITests */,
+				C2D3E24F29B12667009C3E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D3E24F29B12667009C3E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E24E29B12667009C3E09 /* cariad-challenge.app */,
+				C2D3E26429B1266A009C3E09 /* cariad-challengeTests.xctest */,
+				C2D3E26E29B1266A009C3E09 /* cariad-challengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D3E25029B12667009C3E09 /* cariad-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E25129B12667009C3E09 /* AppDelegate.swift */,
+				C2D3E25329B12667009C3E09 /* SceneDelegate.swift */,
+				C2D3E25529B12667009C3E09 /* ViewController.swift */,
+				C2D3E25729B12667009C3E09 /* Main.storyboard */,
+				C2D3E25A29B1266A009C3E09 /* Assets.xcassets */,
+				C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */,
+				C2D3E25F29B1266A009C3E09 /* Info.plist */,
+			);
+			path = "cariad-challenge";
+			sourceTree = "<group>";
+		};
+		C2D3E26729B1266A009C3E09 /* cariad-challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */,
+			);
+			path = "cariad-challengeTests";
+			sourceTree = "<group>";
+		};
+		C2D3E27129B1266A009C3E09 /* cariad-challengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E27229B1266A009C3E09 /* cariad_challengeUITests.swift */,
+				C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */,
+			);
+			path = "cariad-challengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D3E24D29B12667009C3E09 /* cariad-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D3E27829B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challenge" */;
+			buildPhases = (
+				C2D3E24A29B12667009C3E09 /* Sources */,
+				C2D3E24B29B12667009C3E09 /* Frameworks */,
+				C2D3E24C29B12667009C3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cariad-challenge";
+			productName = "cariad-challenge";
+			productReference = C2D3E24E29B12667009C3E09 /* cariad-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2D3E26329B1266A009C3E09 /* cariad-challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D3E27B29B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challengeTests" */;
+			buildPhases = (
+				C2D3E26029B1266A009C3E09 /* Sources */,
+				C2D3E26129B1266A009C3E09 /* Frameworks */,
+				C2D3E26229B1266A009C3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D3E26629B1266A009C3E09 /* PBXTargetDependency */,
+			);
+			name = "cariad-challengeTests";
+			productName = "cariad-challengeTests";
+			productReference = C2D3E26429B1266A009C3E09 /* cariad-challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2D3E26D29B1266A009C3E09 /* cariad-challengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D3E27E29B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challengeUITests" */;
+			buildPhases = (
+				C2D3E26A29B1266A009C3E09 /* Sources */,
+				C2D3E26B29B1266A009C3E09 /* Frameworks */,
+				C2D3E26C29B1266A009C3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D3E27029B1266A009C3E09 /* PBXTargetDependency */,
+			);
+			name = "cariad-challengeUITests";
+			productName = "cariad-challengeUITests";
+			productReference = C2D3E26E29B1266A009C3E09 /* cariad-challengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D3E24629B12667009C3E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C2D3E24D29B12667009C3E09 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C2D3E26329B1266A009C3E09 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C2D3E24D29B12667009C3E09;
+					};
+					C2D3E26D29B1266A009C3E09 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C2D3E24D29B12667009C3E09;
+					};
+				};
+			};
+			buildConfigurationList = C2D3E24929B12667009C3E09 /* Build configuration list for PBXProject "cariad-challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2D3E24529B12667009C3E09;
+			productRefGroup = C2D3E24F29B12667009C3E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D3E24D29B12667009C3E09 /* cariad-challenge */,
+				C2D3E26329B1266A009C3E09 /* cariad-challengeTests */,
+				C2D3E26D29B1266A009C3E09 /* cariad-challengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D3E24C29B12667009C3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D3E25E29B1266A009C3E09 /* LaunchScreen.storyboard in Resources */,
+				C2D3E25B29B1266A009C3E09 /* Assets.xcassets in Resources */,
+				C2D3E25929B12667009C3E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26229B1266A009C3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26C29B1266A009C3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D3E24A29B12667009C3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D3E25629B12667009C3E09 /* ViewController.swift in Sources */,
+				C2D3E25229B12667009C3E09 /* AppDelegate.swift in Sources */,
+				C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26029B1266A009C3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D3E26929B1266A009C3E09 /* cariad_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D3E26A29B1266A009C3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D3E27529B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift in Sources */,
+				C2D3E27329B1266A009C3E09 /* cariad_challengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D3E26629B1266A009C3E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D3E24D29B12667009C3E09 /* cariad-challenge */;
+			targetProxy = C2D3E26529B1266A009C3E09 /* PBXContainerItemProxy */;
+		};
+		C2D3E27029B1266A009C3E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D3E24D29B12667009C3E09 /* cariad-challenge */;
+			targetProxy = C2D3E26F29B1266A009C3E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2D3E25729B12667009C3E09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D3E25829B12667009C3E09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D3E25D29B1266A009C3E09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D3E27629B1266A009C3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2D3E27729B1266A009C3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D3E27929B1266A009C3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cariad-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2D3E27A29B1266A009C3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cariad-challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2D3E27C29B1266A009C3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cariad-challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cariad-challenge";
+			};
+			name = Debug;
+		};
+		C2D3E27D29B1266A009C3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cariad-challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cariad-challenge";
+			};
+			name = Release;
+		};
+		C2D3E27F29B1266A009C3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cariad-challenge";
+			};
+			name = Debug;
+		};
+		C2D3E28029B1266A009C3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB8TG6DDNC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigoscroferneker.cariad-challengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cariad-challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D3E24929B12667009C3E09 /* Build configuration list for PBXProject "cariad-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D3E27629B1266A009C3E09 /* Debug */,
+				C2D3E27729B1266A009C3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D3E27829B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D3E27929B1266A009C3E09 /* Debug */,
+				C2D3E27A29B1266A009C3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D3E27B29B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D3E27C29B1266A009C3E09 /* Debug */,
+				C2D3E27D29B1266A009C3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D3E27E29B1266A009C3E09 /* Build configuration list for PBXNativeTarget "cariad-challengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D3E27F29B1266A009C3E09 /* Debug */,
+				C2D3E28029B1266A009C3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D3E24629B12667009C3E09 /* Project object */;
+}
