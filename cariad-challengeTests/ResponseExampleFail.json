@@ -1,8 +1,8 @@
-//
-//  ResponseExampleFail.json
-//  cariad-challengeTests
-//
-//  Created by Rodrigo Scroferneker on 06/03/2023.
-//
-
-import Foundation
+[
+    {
+        "dateLastStatusUpdate": "19/04/1996",
+    },
+    {
+        "uuid": "ABC1"
+    }
+]

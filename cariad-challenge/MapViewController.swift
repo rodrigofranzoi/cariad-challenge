@@ -10,7 +10,6 @@ import MapKit
 import Combine
 
 class MapViewController: UIViewController {
-    
     public enum State: Equatable {
         public static func == (lhs: MapViewController.State, rhs: MapViewController.State) -> Bool {
             switch (lhs, rhs) {

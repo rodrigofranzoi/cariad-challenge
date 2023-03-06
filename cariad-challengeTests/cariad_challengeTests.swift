@@ -14,11 +14,13 @@ final class cariad_challengeTests: XCTestCase {
     
     var polling: PollingUseCaseType!
     var service: ChargingPointsServiceType!
+    var serviceFail: ChargingPointsFailTest!
     
     var cancellables = Set<AnyCancellable>()
 
     override func setUp() {
         super.setUp()
+        serviceFail = ChargingPointsFailTest(provider: APIProvider())
         service = ChargingPointsTest(provider: APIProvider())
         polling = PollingUseCase(interval: 60)
     }
@@ -68,7 +70,7 @@ final class cariad_challengeTests: XCTestCase {
         wait(for: [expectation], timeout: 2)
 
         XCTAssertEqual(sut.stations.count, 2)
-        XCTAssertTrue(sut.viewState == .idle)
+        XCTAssertEqual(sut.viewState, .idle)
     }
     
     func testModelReload() {
@@ -91,7 +93,31 @@ final class cariad_challengeTests: XCTestCase {
         wait(for: [expectation], timeout: 2)
 
         XCTAssertEqual(sut.stations.count, 100)
-        XCTAssertTrue(sut.viewState == .idle)
+        XCTAssertEqual(sut.viewState, .idle)
+    }
+    
+    func testModelFail() {
+        
+        //Given
+        let expectation = XCTestExpectation(description: "Fail")
+        let sut = MapViewModel(lat: 0, lon: 0, zoomDistance: 0, pollingService: polling, service: serviceFail)
+
+        sut
+            .$viewState
+            .dropFirst(2) //idle -> fetching -> error
+            .sink( receiveValue: { _ in
+                expectation.fulfill()
+            })
+            .store(in: &cancellables)
+        //When
+        sut.fetchData()
+
+        //Then
+        wait(for: [expectation], timeout: 1)
+
+        XCTAssertEqual(sut.stations.count, 0)
+        XCTAssertNotEqual(sut.viewState, .idle)
+        XCTAssertNotEqual(sut.viewState, .fetching)
     }
     
     func testPolling() {
@@ -162,8 +188,7 @@ final class cariad_challengeTests: XCTestCase {
 
 
 final class ChargingPointsTest: ChargingPointsServiceType {
-    
-    let provider: APIProviderType
+    private let provider: APIProviderType
     public var count: Int = 0
     
     init(provider: APIProviderType) {
@@ -174,6 +199,23 @@ final class ChargingPointsTest: ChargingPointsServiceType {
         let resource = count%2 == 0 ? "ResponseExample2" : "ResponseExample"
         count += 1
         let path = Bundle.main.path(forResource: resource, ofType: "json")!
+        let url = URL(fileURLWithPath: path)
+        return provider
+            .request(urlRequest: URLRequest(url: url))
+            .eraseToAnyPublisher()
+    }
+}
+
+final class ChargingPointsFailTest: ChargingPointsServiceType {
+    private let provider: APIProviderType
+    init(provider: APIProviderType) {
+        self.provider = provider
+    }
+    
+    func fetchChargingPoint(latitude: Double, longitude: Double, distance: Double) -> AnyPublisher<[ChargingStation], Error> {
+        guard let path = Bundle.main.path(forResource: "ResponseExampleFail", ofType: "json") else {
+            return Fail(error: NSError(domain: "Decoding", code: 123)).eraseToAnyPublisher()
+        }
         let url = URL(fileURLWithPath: path)
         return provider
             .request(urlRequest: URLRequest(url: url))
