@@ -1,0 +1,24 @@
+[
+    {
+        "uuid": "ABC2",
+        "dateLastStatusUpdate": "19/04/1996",
+        "numberOfPoints": 1,
+        "addressInfo": {
+            "title": "rodrigo",
+            "addressLine1": "rodrigo",
+            "latitude": 123.0,
+            "longitude": -123.0
+        }
+    },
+    {
+        "uuid": "ABC1",
+        "dateLastStatusUpdate": "19/03/1998",
+        "numberOfPoints": 1,
+        "addressInfo": {
+            "title": "valentina",
+            "addressLine1": "valentina",
+            "latitude": 123.0,
+            "longitude": -123.0
+        }
+    }
+]

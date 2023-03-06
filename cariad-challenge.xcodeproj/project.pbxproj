@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20CB46029B3AEC7005273C7 /* POIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CB45F29B3AEC7005273C7 /* POIDetailViewController.swift */; };
+		C20CB46229B3B0BB005273C7 /* ChargingStationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CB46129B3B0BB005273C7 /* ChargingStationAnnotation.swift */; };
+		C2C1AED429B375E20008A38F /* PollingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1AED329B375E20008A38F /* PollingUseCase.swift */; };
+		C2C1AED629B393E00008A38F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1AED529B393E00008A38F /* Constants.swift */; };
+		C2C1AED829B3A2920008A38F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1AED729B3A2920008A38F /* Secrets.swift */; };
 		C2D3E25229B12667009C3E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25129B12667009C3E09 /* AppDelegate.swift */; };
 		C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25329B12667009C3E09 /* SceneDelegate.swift */; };
-		C2D3E25629B12667009C3E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25529B12667009C3E09 /* ViewController.swift */; };
-		C2D3E25929B12667009C3E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25729B12667009C3E09 /* Main.storyboard */; };
+		C2D3E25629B12667009C3E09 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25529B12667009C3E09 /* MapViewController.swift */; };
 		C2D3E25B29B1266A009C3E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25A29B1266A009C3E09 /* Assets.xcassets */; };
-		C2D3E25E29B1266A009C3E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */; };
 		C2D3E26929B1266A009C3E09 /* cariad_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */; };
 		C2D3E27329B1266A009C3E09 /* cariad_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E27229B1266A009C3E09 /* cariad_challengeUITests.swift */; };
 		C2D3E27529B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */; };
+		C2D3E28329B12F5E009C3E09 /* APIProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E28229B12F5E009C3E09 /* APIProviderType.swift */; };
+		C2D3E28529B13194009C3E09 /* ChargingPointsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E28429B13194009C3E09 /* ChargingPointsService.swift */; };
+		C2D3E28829B1E2C3009C3E09 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E28729B1E2C3009C3E09 /* MapViewModel.swift */; };
+		C2D3E28A29B1E2DF009C3E09 /* ChargingStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E28929B1E2DF009C3E09 /* ChargingStation.swift */; };
+		C2D3E29329B1FF32009C3E09 /* ResponseExample.json in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E29229B1FF32009C3E09 /* ResponseExample.json */; };
+		C2D3E29529B20117009C3E09 /* ResponseExample2.json in Resources */ = {isa = PBXBuildFile; fileRef = C2D3E29429B20117009C3E09 /* ResponseExample2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20CB45F29B3AEC7005273C7 /* POIDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIDetailViewController.swift; sourceTree = "<group>"; };
+		C20CB46129B3B0BB005273C7 /* ChargingStationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingStationAnnotation.swift; sourceTree = "<group>"; };
+		C2C1AED329B375E20008A38F /* PollingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingUseCase.swift; sourceTree = "<group>"; };
+		C2C1AED529B393E00008A38F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2C1AED729B3A2920008A38F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		C2D3E24E29B12667009C3E09 /* cariad-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cariad-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D3E25129B12667009C3E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D3E25329B12667009C3E09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2D3E25529B12667009C3E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2D3E25829B12667009C3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2D3E25529B12667009C3E09 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2D3E25A29B1266A009C3E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2D3E25D29B1266A009C3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D3E25F29B1266A009C3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D3E26429B1266A009C3E09 /* cariad-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cariad-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeTests.swift; sourceTree = "<group>"; };
 		C2D3E26E29B1266A009C3E09 /* cariad-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cariad-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D3E27229B1266A009C3E09 /* cariad_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeUITests.swift; sourceTree = "<group>"; };
 		C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cariad_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2D3E28229B12F5E009C3E09 /* APIProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProviderType.swift; sourceTree = "<group>"; };
+		C2D3E28429B13194009C3E09 /* ChargingPointsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPointsService.swift; sourceTree = "<group>"; };
+		C2D3E28729B1E2C3009C3E09 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C2D3E28929B1E2DF009C3E09 /* ChargingStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingStation.swift; sourceTree = "<group>"; };
+		C2D3E29229B1FF32009C3E09 /* ResponseExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResponseExample.json; sourceTree = "<group>"; };
+		C2D3E29429B20117009C3E09 /* ResponseExample2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ResponseExample2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2C1AED929B3ACC50008A38F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C2C1AED529B393E00008A38F /* Constants.swift */,
+				C2C1AED729B3A2920008A38F /* Secrets.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		C2D3E24529B12667009C3E09 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +126,14 @@
 		C2D3E25029B12667009C3E09 /* cariad-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				C2D3E25529B12667009C3E09 /* MapViewController.swift */,
+				C20CB45F29B3AEC7005273C7 /* POIDetailViewController.swift */,
+				C2C1AED929B3ACC50008A38F /* Constants */,
+				C2D3E28629B1E2B1009C3E09 /* Model */,
+				C2D3E28129B12F4B009C3E09 /* Services */,
 				C2D3E25129B12667009C3E09 /* AppDelegate.swift */,
 				C2D3E25329B12667009C3E09 /* SceneDelegate.swift */,
-				C2D3E25529B12667009C3E09 /* ViewController.swift */,
-				C2D3E25729B12667009C3E09 /* Main.storyboard */,
 				C2D3E25A29B1266A009C3E09 /* Assets.xcassets */,
-				C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */,
 				C2D3E25F29B1266A009C3E09 /* Info.plist */,
 			);
 			path = "cariad-challenge";
@@ -113,6 +142,8 @@
 		C2D3E26729B1266A009C3E09 /* cariad-challengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				C2D3E29229B1FF32009C3E09 /* ResponseExample.json */,
+				C2D3E29429B20117009C3E09 /* ResponseExample2.json */,
 				C2D3E26829B1266A009C3E09 /* cariad_challengeTests.swift */,
 			);
 			path = "cariad-challengeTests";
@@ -125,6 +156,26 @@
 				C2D3E27429B1266A009C3E09 /* cariad_challengeUITestsLaunchTests.swift */,
 			);
 			path = "cariad-challengeUITests";
+			sourceTree = "<group>";
+		};
+		C2D3E28129B12F4B009C3E09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E28229B12F5E009C3E09 /* APIProviderType.swift */,
+				C2D3E28429B13194009C3E09 /* ChargingPointsService.swift */,
+				C2C1AED329B375E20008A38F /* PollingUseCase.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C2D3E28629B1E2B1009C3E09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3E28729B1E2C3009C3E09 /* MapViewModel.swift */,
+				C2D3E28929B1E2DF009C3E09 /* ChargingStation.swift */,
+				C20CB46129B3B0BB005273C7 /* ChargingStationAnnotation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D3E25E29B1266A009C3E09 /* LaunchScreen.storyboard in Resources */,
+				C2D3E29529B20117009C3E09 /* ResponseExample2.json in Resources */,
 				C2D3E25B29B1266A009C3E09 /* Assets.xcassets in Resources */,
-				C2D3E25929B12667009C3E09 /* Main.storyboard in Resources */,
+				C2D3E29329B1FF32009C3E09 /* ResponseExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +309,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D3E25629B12667009C3E09 /* ViewController.swift in Sources */,
+				C2C1AED429B375E20008A38F /* PollingUseCase.swift in Sources */,
+				C2C1AED829B3A2920008A38F /* Secrets.swift in Sources */,
+				C2D3E25629B12667009C3E09 /* MapViewController.swift in Sources */,
+				C2D3E28A29B1E2DF009C3E09 /* ChargingStation.swift in Sources */,
 				C2D3E25229B12667009C3E09 /* AppDelegate.swift in Sources */,
+				C2D3E28829B1E2C3009C3E09 /* MapViewModel.swift in Sources */,
+				C2D3E28329B12F5E009C3E09 /* APIProviderType.swift in Sources */,
+				C20CB46029B3AEC7005273C7 /* POIDetailViewController.swift in Sources */,
 				C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */,
+				C2D3E28529B13194009C3E09 /* ChargingPointsService.swift in Sources */,
+				C2C1AED629B393E00008A38F /* Constants.swift in Sources */,
+				C20CB46229B3B0BB005273C7 /* ChargingStationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +355,6 @@
 			targetProxy = C2D3E26F29B1266A009C3E09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C2D3E25729B12667009C3E09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2D3E25829B12667009C3E09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2D3E25C29B1266A009C3E09 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2D3E25D29B1266A009C3E09 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2D3E27629B1266A009C3E09 /* Debug */ = {
@@ -442,7 +483,6 @@
 				INFOPLIST_FILE = "cariad-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +510,6 @@
 				INFOPLIST_FILE = "cariad-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
