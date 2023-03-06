@@ -13,6 +13,8 @@
 		C2C1AED629B393E00008A38F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1AED529B393E00008A38F /* Constants.swift */; };
 		C2C1AED829B3A2920008A38F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1AED729B3A2920008A38F /* Secrets.swift */; };
 		C2C4142629B6436A004DD48B /* ResponseExampleFail.json in Resources */ = {isa = PBXBuildFile; fileRef = C2C4142429B63D9C004DD48B /* ResponseExampleFail.json */; };
+		C2C4142829B65417004DD48B /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C4142729B65417004DD48B /* Secrets.plist */; };
+		C2C4142A29B654AC004DD48B /* SecretPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4142929B654AC004DD48B /* SecretPlist.swift */; };
 		C2D3E25229B12667009C3E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25129B12667009C3E09 /* AppDelegate.swift */; };
 		C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25329B12667009C3E09 /* SceneDelegate.swift */; };
 		C2D3E25629B12667009C3E09 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E25529B12667009C3E09 /* MapViewController.swift */; };
@@ -52,6 +54,8 @@
 		C2C1AED529B393E00008A38F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C2C1AED729B3A2920008A38F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		C2C4142429B63D9C004DD48B /* ResponseExampleFail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ResponseExampleFail.json; sourceTree = "<group>"; };
+		C2C4142729B65417004DD48B /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		C2C4142929B654AC004DD48B /* SecretPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretPlist.swift; sourceTree = "<group>"; };
 		C2D3E24E29B12667009C3E09 /* cariad-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cariad-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D3E25129B12667009C3E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D3E25329B12667009C3E09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				C2D3E25329B12667009C3E09 /* SceneDelegate.swift */,
 				C2D3E25A29B1266A009C3E09 /* Assets.xcassets */,
 				C2D3E25F29B1266A009C3E09 /* Info.plist */,
+				C2C4142729B65417004DD48B /* Secrets.plist */,
 			);
 			path = "cariad-challenge";
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			children = (
 				C2D3E28929B1E2DF009C3E09 /* ChargingStation.swift */,
 				C20CB46129B3B0BB005273C7 /* ChargingStationAnnotation.swift */,
+				C2C4142929B654AC004DD48B /* SecretPlist.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D3E29529B20117009C3E09 /* ResponseExample2.json in Resources */,
+				C2C4142829B65417004DD48B /* Secrets.plist in Resources */,
 				C2D3E25B29B1266A009C3E09 /* Assets.xcassets in Resources */,
 				C2D3E29329B1FF32009C3E09 /* ResponseExample.json in Resources */,
 				C2C4142629B6436A004DD48B /* ResponseExampleFail.json in Resources */,
@@ -324,6 +331,7 @@
 				C2D3E25429B12667009C3E09 /* SceneDelegate.swift in Sources */,
 				C2D3E28529B13194009C3E09 /* ChargingPointsService.swift in Sources */,
 				C2C1AED629B393E00008A38F /* Constants.swift in Sources */,
+				C2C4142A29B654AC004DD48B /* SecretPlist.swift in Sources */,
 				C20CB46229B3B0BB005273C7 /* ChargingStationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
