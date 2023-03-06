@@ -127,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				C2D3E25529B12667009C3E09 /* MapViewController.swift */,
+				C2D3E28729B1E2C3009C3E09 /* MapViewModel.swift */,
 				C20CB45F29B3AEC7005273C7 /* POIDetailViewController.swift */,
 				C2C1AED929B3ACC50008A38F /* Constants */,
 				C2D3E28629B1E2B1009C3E09 /* Model */,
@@ -171,7 +172,6 @@
 		C2D3E28629B1E2B1009C3E09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C2D3E28729B1E2C3009C3E09 /* MapViewModel.swift */,
 				C2D3E28929B1E2DF009C3E09 /* ChargingStation.swift */,
 				C20CB46129B3B0BB005273C7 /* ChargingStationAnnotation.swift */,
 			);
